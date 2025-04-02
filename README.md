@@ -1,21 +1,15 @@
-# DevSecOps Playbook - Version 1.3.2 - December 2024
+# DevSecOps Playbook
 This playbook will help you introduce effective DevSecOps practices in your company, regardless of size. We provide explicit guidance and actionable steps to introduce security controls, measure their effectiveness, and demonstrate value for money to your business leaders. Following this playbook will help teams build materially more secure applications, and that in the end, is the intent.
 
-I presented the DevSecOps Playbook at the OWASP Global AppSec Conference in November of 2022.  You can find find a PDF version of the slides presented [here](images/owasp_presentation_globalappsec2022_devsecops_playbook.pdf).
+## Background
 
-## Some background
-
-This playbook was inspired by several documents and I want to call them out here:
+This playbook was inspired by several documents and we want to call them out here:
 
 The "Minimum Viable Secure Product", or [MVSP](https://mvsp.dev) is a project that tried to set a minimum baseline for what a company would need to achieve to be thought of as "secure".  The MVSP is a great way to determine how mature an organization's security practices are and should be used by any org as somewhere to start.
 
 OWASP has built a great document called the [Application Security Verification Standard (ASVS)](https://github.com/OWASP/ASVS).  This document is highly technical, and should be read by anyone that is interested in AppSec.  However, this document is not particularly prescriptive, and therefore needs to be translated to a discreet set of steps that a team can do, which is the intent with the DevSecOps Playbook. 
 
-Timo Pagel's amazing "DevSecOps Maturity Model" or [DSOMM](https://dsomm.timo-pagel.de/) is a project that I only found recently.  There is some overlap between the DSOMM and this document and you should definitely browse through the DSOMM and explore the different maturity levels.
-
-## Sponsors 
-Sponsored with 💜  by <a href="https://securestack.com" target=”_blank” rel="noopener noreferrer"><center><img src="https://securestack.com/wp-content/uploads/2021/09/securestack-horizontal.png" width="400"/></center></a>
-
+Timo Pagel's amazing "DevSecOps Maturity Model" or [DSOMM](https://owasp.org/www-project-devsecops-maturity-model/).  There is some overlap between the DSOMM and this document and you should definitely browse through the DSOMM and explore the different maturity levels.
 
 ## Shift Left
 
@@ -196,26 +190,4 @@ The OWASP DevSecOps Maturity Model is led by Timo Pagel. It provides opportuniti
 
 Coupled with the DevSecOps Playbook here, you can chart a "default" path and visually represent program maturity progression.
 
-You can find the work here: https://github.com/wurstbrot/DevSecOps-MaturityModel  
-
-## What's been mapped so far?
-
-- [x] mapped all of ISM GSD
-- [x] mapped all of SSDF
-- [x] mapped CIS section 16
-- [x] mapped to DSOMM Activities
-
-## What's left to do?
-
-- [ ] map CIS section other than 16 to all items
-- [ ] map remaining ISO 27001 Annex 14
-- [ ] create compliance section for ISO 27002
-- [ ] map brand new ISO 27002 controls
-- [ ] map remaining NIST 800-53
-- [ ] map remaining ISM infrastructure
-
-## About the author
-
-My name is Paul McCarty and I'm the founder of [SecureStack](https://securestack.com). I created this document as a way to capture in one place the steps I took to implement DevSecOps functions into my team. If you have any questions you can contact me at hello@securestack.com or on twitter [@eastside-mccarty](https://twitter.com/eastsidemccarty) 
-
-
+You can find the work here: https://github.com/wurstbrot/DevSecOps-MaturityModel
