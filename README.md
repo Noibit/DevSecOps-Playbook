@@ -129,7 +129,7 @@ People don't deploy applications, organizations do.  Some steps in the DevSecOps
 | 5.8 | Licensing | 3 | Track licensing of all software that your organizations uses or depends on.  Utilize a license tracking solution to enable searching for license types | <span style="color: red">Difficult</span> | <ul><li>?</li></ul> |
 | 5.9 | Vulnerability Aggregation and Management | 2 | Implement a system that aggregates vulnerability data from multiple tools and allows teams to prioritize, collaborate on, and manage the lifecycle of said vulnerabilities | <span style="color: orange">Medium</span> | <ul><li>CIS8</li><li>ISM GSD</li><li>SSDF1.1</li></ul> |
 
-![DevSecOps Continuous Improvement](images/devsecops-controls.jpg)
+![DevSecOps Continuous Improvement](images/devsecops-controls-v2.png)
 
 <h2 id="compliance">Compliance - Security Framework Reference Material</h2> 
 
